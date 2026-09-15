@@ -1,0 +1,25 @@
+{
+    "students": [
+        {
+            "name": "Daniel Williams",
+            "grade": "Grade 12",
+            "class": "A"
+        },
+        {
+            "name": "Michael Brown",
+            "grade": "Grade 7",
+            "class": "A"
+        },
+        {
+            "name": "Sarah Johnson",
+            "grade": "Grade 11",
+            "class": "B"
+        },
+        {
+            "name": "Grace Anderson",
+            "grade": "Grade 10",
+            "class": "A"
+        }
+
+    ]
+}

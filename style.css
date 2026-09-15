@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0,0,0, 0.55)), url("image/logo.jpg.png");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.shine {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+.boat {
+    text-align: center;
+    padding: 60px 30px;
+    margin: 30px 0;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.boat h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.boat h2 {
+    font-size: 25px;
+}
+
+.shine h3 {
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#gradeControls {
+    display: none;
+}
+
+.grade-checker {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.grade-checker select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grade-checker button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: burlywood;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#loadBtn {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: burlywood;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#loadBtn:hover {
+    background-color: wheat;
+}
+
+#output {
+    margin: 20px auto;
+    max-width: 700px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+#output p {
+    background: rgba(255, 255, 255, 0.9);
+    color: #242424;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
