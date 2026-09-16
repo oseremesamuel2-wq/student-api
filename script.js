@@ -32,13 +32,14 @@ async function fetchSelectedGrade() {
 
     try {
         const selectedGrade = gradeSelect.value;
-        const response = await fetch(`http://localhost:3000/students?grade=${encodeURIComponent(selectedGrade)}`);
+        const response = await fetch("school-api/db.json");
 
         if (!response.ok) {
             throw new Error(`Request failed: ${response.status}`);
         }
 
-        const students = await response.json();
+        const data = await response.json();
+        const students = data.students.filter(student => student.grade === selectedGrade);
         displayStudents(students);
     } catch (err) {
         output.textContent = "";

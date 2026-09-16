@@ -192,3 +192,110 @@ footer {
     border-radius: 10px;
 }
 
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boat {
+        padding: 40px 20px;
+        margin: 20px 0;
+    }
+
+    .boat h1 {
+        font-size: 35px;
+    }
+
+    .boat h2 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .shine {
+        width: 95%;
+        padding: 20px 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 10px 6px;
+    }
+
+    .grade-checker {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .nav-links {
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .boat h1 {
+        font-size: 28px;
+    }
+
+    .boat h2 {
+        font-size: 17px;
+    }
+
+    .shine {
+        width: 100%;
+        padding: 15px 10px;
+        border-radius: 10px;
+    }
+
+    .shine h3 {
+        font-size: 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 4px;
+    }
+
+    #loadBtn {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    #output {
+        padding: 15px 10px;
+    }
+
+}
